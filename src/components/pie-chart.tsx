@@ -1,7 +1,7 @@
 'use client'
 import { ResponsivePie } from "@nivo/pie"
 
-function PieChart(props) {
+function PieChart(props: React.ComponentProps<"div">) {
   return (
     <div {...props}>
       <ResponsivePie

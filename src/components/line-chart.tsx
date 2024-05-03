@@ -1,7 +1,7 @@
 'use client'
 import { ResponsiveLine } from "@nivo/line"
 
-function LineChart(props) {
+function LineChart(props: React.ComponentProps<"div">) {
   'use client'
   return (
     <div {...props}>
