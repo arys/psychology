@@ -23,14 +23,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       <div className="flex min-h-[100dvh]">
-      <aside className="w-64 border-r bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
-        <div className="flex h-16 items-center justify-between border-b px-4 dark:border-gray-800">
+      <aside className="w-64 border-r bg-gray-50">
+        <div className="flex h-16 items-center justify-between border-b px-4">
           <span className="text-lg font-semibold">PsychCMS</span>
         </div>
         <nav className="p-4">
           <ul className="grid gap-2">
             <li>
-              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="/">
+              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100" href="/">
                 <span className="flex items-center gap-2">
                   <HomeIcon className="h-4 w-4" />
                   Dashboard{"\n"}
@@ -38,7 +38,7 @@ export default function RootLayout({
               </Link>
             </li>
             <li>
-              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="/clients">
+              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100" href="/clients">
                 <span className="flex items-center gap-2">
                   <UsersIcon className="h-4 w-4" />
                   Clients{"\n"}
@@ -46,7 +46,7 @@ export default function RootLayout({
               </Link>
             </li>
             {/* <li>
-              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="/sessions">
+              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100" href="/sessions">
                 <span className="flex items-center gap-2">
                   <ClockIcon className="h-4 w-4" />
                   Sessions{"\n"}
@@ -54,7 +54,7 @@ export default function RootLayout({
               </Link>
             </li>
             <li>
-              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800" href="/calendar">
+              <Link className="block rounded-md px-4 py-2 hover:bg-gray-100" href="/calendar">
                 <span className="flex items-center gap-2">
                   <CalendarIcon className="h-4 w-4" />
                   Calendar{"\n"}
@@ -65,7 +65,7 @@ export default function RootLayout({
         </nav>
       </aside>
       <main className="flex-1">
-        <header className="flex h-16 items-center justify-end border-b px-6 dark:border-gray-800">
+        <header className="flex h-16 items-center justify-end border-b px-6">
           {/* <h1 className="text-2xl font-semibold">
             CMS
           </h1> */}

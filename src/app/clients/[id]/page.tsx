@@ -34,7 +34,7 @@ export default function ClientInfo() {
         </TabsList>
         <TabsContent value="info">
           <Card>
-            <CardContent className="grid gap-6">
+            <CardContent className="grid gap-6 mt-4">
               <section>
                 <h3 className="mb-4 text-lg font-medium">Personal Info</h3>
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -277,7 +277,7 @@ export default function ClientInfo() {
                       <TableCell>$150</TableCell>
                       <TableCell>
                         <Badge
-                          className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                          className="bg-gray-100 text-gray-800"
                           variant="outline"
                         >
                           Unpaid

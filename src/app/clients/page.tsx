@@ -91,7 +91,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -128,7 +128,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -165,7 +165,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -202,7 +202,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -239,7 +239,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -276,7 +276,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -313,7 +313,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive
@@ -350,7 +350,7 @@ export default function CLients() {
                 <TableCell>555-234-5678</TableCell>
                 <TableCell>
                   <Badge
-                    className="bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300"
+                    className="bg-gray-100 text-gray-800"
                     variant="outline"
                   >
                     Inactive

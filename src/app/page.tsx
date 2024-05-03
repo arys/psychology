@@ -16,7 +16,7 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">256</div>
-            <p className="text-xs text-gray-500 dark:text-gray-400">↗︎ 12% from last month</p>
+            <p className="text-xs text-gray-500">↗︎ 12% from last month</p>
           </CardContent>
         </Card>
         <Card>
@@ -26,7 +26,7 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">12</div>
-            <p className="text-xs text-gray-500 dark:text-gray-400">↗︎ 8% from last week</p>
+            <p className="text-xs text-gray-500">↗︎ 8% from last week</p>
           </CardContent>
         </Card>
         <Card>
@@ -36,7 +36,7 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">431</div>
-            <p className="text-xs text-gray-500 dark:text-gray-400">↗︎ 22% from last month</p>
+            <p className="text-xs text-gray-500">↗︎ 22% from last month</p>
           </CardContent>
         </Card>
       </div>
@@ -62,7 +62,7 @@ export default function Home() {
                 </Avatar>
                 <div className="space-y-1">
                   <p className="font-medium leading-none">Alice Baxter</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">June 8, 2023 at 9:00 AM</p>
+                  <p className="text-sm text-gray-500">June 8, 2023 at 9:00 AM</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -72,7 +72,7 @@ export default function Home() {
                 </Avatar>
                 <div className="space-y-1">
                   <p className="font-medium leading-none">John Doe</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">June 9, 2023 at 2:30 PM</p>
+                  <p className="text-sm text-gray-500">June 9, 2023 at 2:30 PM</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -82,7 +82,7 @@ export default function Home() {
                 </Avatar>
                 <div className="space-y-1">
                   <p className="font-medium leading-none">Sarah Williams</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">June 10, 2023 at 11:00 AM</p>
+                  <p className="text-sm text-gray-500">June 10, 2023 at 11:00 AM</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -92,7 +92,7 @@ export default function Home() {
                 </Avatar>
                 <div className="space-y-1">
                   <p className="font-medium leading-none">Sarah Williams</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">June 10, 2023 at 11:00 AM</p>
+                  <p className="text-sm text-gray-500">June 10, 2023 at 11:00 AM</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -102,7 +102,7 @@ export default function Home() {
                 </Avatar>
                 <div className="space-y-1">
                   <p className="font-medium leading-none">Sarah Williams</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">June 10, 2023 at 11:00 AM</p>
+                  <p className="text-sm text-gray-500">June 10, 2023 at 11:00 AM</p>
                 </div>
               </div>
             </div>
