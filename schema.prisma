@@ -1,0 +1,61 @@
+datasource db {
+  url      = env("POSTGRES_PRISMA_URL")
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  firebase_id String    @id
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @updatedAt
+  email       String    @unique
+  first_name  String?
+  last_name   String?
+  clients     Client[]
+  sessions    Session[]
+}
+
+model Client {
+  id                         Int       @id @default(autoincrement())
+  created_at                 DateTime  @default(now())
+  updated_at                 DateTime  @updatedAt
+  first_name                 String
+  last_name                  String
+  email                      String?
+  phone_numbers              Json[] // { number: string, type: phone/whatsapp/telegram }
+  user_id                    String
+  notes                      String?
+  emergency_contact_name     String?
+  emergency_contact_phone    String?
+  emergency_contact_relation String?
+  birthdate                  DateTime?
+  User                       User      @relation(fields: [user_id], references: [firebase_id])
+  sessions                   Session[]
+}
+
+model Session {
+  id            Int           @id @default(autoincrement())
+  created_at    DateTime      @default(now())
+  updated_at    DateTime      @updatedAt
+  ended_at      DateTime?
+  duration      Int           @default(90)
+  place         String?
+  place_geo     Json? // [lat,lon]
+  datatime      DateTime
+  notes         String?
+  status        SessionStatus @default(SCHEDULED)
+  cancelled_at  DateTime?
+  cancel_reason String?
+  client_id     Int
+  Client        Client        @relation(fields: [client_id], references: [id])
+  user_id       String
+  User          User          @relation(fields: [user_id], references: [firebase_id])
+}
+
+enum SessionStatus {
+  SCHEDULED
+  CANCELLED
+}
