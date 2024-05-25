@@ -372,6 +372,41 @@ export default function CLients() {
                     </DropdownMenuContent>
                   </DropdownMenu>
                 </TableCell>
+              <TableRow>
+                <TableSell>
+                  <div className="flex items-center gap-2">
+                    <Avatar>
+                      <AvatarImage src="/placeholder-avatar.jpg" />
+                      <AvatarFallback>SW</AvatarFallback>
+                    </Avatar>
+                    Sarah Williams
+                  </div>
+                </TableSell>
+                <TableCell>sarah@example.com</TableCell>
+                <TableCell>555-234-5678</TableCell>
+                <TableCell>
+                  <Badge
+                    className="bg-gray-100 text-gray-800"
+                    variant="outline"
+                  >
+                    Inastive
+                  </Badge>
+                </TableCell>
+                <TableCell className="text-right">
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button className="h-8 w-8 p-0" variant="ghost">
+                        <MoveHorizontalIcon className="h-4 w-4" />
+                        <span className="sr-only">Open menu</span>
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuItem>View</DropdownMenuItem>
+                      <DropdownMenuItem>Edit</DropdownMenuItem>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuItem>Activate</DropdownMenuItem>
+                  </DropdownMenu>
+                </TableCell>
               </TableRow>
             </TableBody>
           </Table>
