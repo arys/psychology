@@ -3,8 +3,14 @@ import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import LineChart from "@/components/line-chart"
 import { CalendarIcon, ClockIcon, UsersIcon } from "@/components/ui/icons";
+import { useEffect } from "react";
 
 export default function Home() {
+  let greeting = ''
+  useEffect(() => {
+    greeting = 'Welcome to the dashboar!'
+    alert(greeting)
+  })
   return (
     <div className="grid gap-6 p-6">
       <h1 className="text-2xl font-semibold">Dashboard</h1>
