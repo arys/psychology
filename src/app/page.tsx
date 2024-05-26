@@ -6,8 +6,9 @@ import { CalendarIcon, ClockIcon, UsersIcon } from "@/components/ui/icons";
 import { useEffect } from "react";
 
 export default function Home() {
+  let greeting = ''
   useEffect(() => {
-    let greeting = 'Welcome to the dashboar!'
+    greeting = 'Welcome to the dashboar'
     alert(greeting)
   })
   return (
