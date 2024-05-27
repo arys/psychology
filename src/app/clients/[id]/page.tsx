@@ -77,6 +77,14 @@ export default function ClientInfo() {
                       <Label htmlFor="zip">ZIP Code</Label>
                       <Input defaultValue="12345" id="zip" />
                     </div>
+                    <div>
+                      <Label htmlFor="Latitude">Latitude</Label>
+                      <Input defaultValue="12345" id="zip" />
+                    </div>
+                    <div>
+                      <Label htmlFor="Longitude">Latitude</Label>
+                      <Input defaultValue="12345" id="zip" />
+                    </div>
                   </div>
                 </div>
               </section>
